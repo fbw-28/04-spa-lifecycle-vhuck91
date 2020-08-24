@@ -1,31 +1,9 @@
-/* 
-OG file
-import React from "react";
-import Header from "./components/Header";
-import SearchResults from "./components/SearchResults";
-
-export default function App() {
-  return (
-    <div>
-      <h1>React App</h1>
-      <Header/>
-      <form>
-        <input type="text"/>
-        //{    <input type="submit" value="seach"/>}
-        <button type="submit">search</button>
-      </form>
-      <SearchResults/>
-    </div>
-  );
-}
- */
-// Own structure
 
 import React, { Component } from 'react'
 import './App.css'
 import Search from './Search.js'
 import Header from './Header'
-import About from './About'
+import About from './About.js'
 
 
 export default class App extends Component {
