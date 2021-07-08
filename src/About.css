@@ -1,0 +1,13 @@
+.about {
+    display: flex;
+    justify-content: center;
+    height: 87vh;
+    background-color: ##B8B8E0;
+    font-size: 32px;
+}
+
+.about p {
+    width: 50%;
+    margin-top: 10%;
+    font-family: monospace;
+}
